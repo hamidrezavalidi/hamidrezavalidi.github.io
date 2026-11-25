@@ -1,19 +1,19 @@
 /* Hamidreza Validi: site styles
-   Type: Charter (Charis SIL) for text, the system sans-serif for navigation and small labels.
+   Type: Computer Modern (the LaTeX font) for text, the system sans-serif for navigation and small labels.
    Palette: paper #fff, ink #1b1f27, muted #5a6270, hairline #e3e5e8,
    link blue #1d4e89, scarlet accent #b0182f (awards only). */
 
 :root {
   --paper: #ffffff;
   --ink: #1b1f27;
-  --muted: #5a6270;
+  --muted: #454c58;
   --faint: #8a919c;
   --rule: #e3e5e8;
   --wash: #f4f5f7;
   --link: #1d4e89;
   --link-hover: #133763;
   --accent: #b0182f;
-  --serif: "Charis SIL", Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --serif: "Computer Modern Serif", "Latin Modern Roman", "CMU Serif", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --measure: 42rem;
   --side: 13.5rem;
@@ -28,8 +28,9 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 1.0625rem;
-  line-height: 1.6;
+  font-size: 1.1875rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
   font-feature-settings: "kern", "liga";
   text-rendering: optimizeLegibility;
 }

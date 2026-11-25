@@ -39,7 +39,6 @@ or locally, commit, and the site updates itself.
 | Students and mentees | `_data/students.yml` |
 | Selected talks | `_data/talks.yml` |
 | Courses | `_data/teaching.yml` |
-| Honors, service, appointments, education | `_data/profile.yml` |
 | About text | `index.html` |
 | Research intro and themes | `research.html` |
 | Teaching intro | `teaching.html` |
