@@ -1,0 +1,18 @@
+{% assign a = site.author %}
+<aside class="profile" aria-label="Profile">
+  <img class="profile-photo" src="{{ a.photo | relative_url }}" alt="Portrait of {{ a.name }}" width="213" height="320">
+  <div class="profile-text">
+    <p class="profile-name">{{ a.name }}</p>
+    <p class="profile-role">{{ a.title }}</p>
+    <p class="profile-affil"><a href="{{ a.department_url }}">{{ a.department }}</a></p>
+    <p class="profile-affil"><a href="{{ a.university_url }}">{{ a.university }}</a></p>
+    <ul class="profile-links">
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ a.office }}, {{ a.location }}</li>
+      <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a class="js-email" data-user="{{ a.email_user }}" data-domain="{{ a.email_domain }}" href="#">{{ a.email_user }} [at] {{ a.email_domain | replace: ".", " [dot] " }}</a></li>
+      <li><i class="fa-regular fa-file-lines" aria-hidden="true"></i><a href="{{ a.cv | relative_url }}">Curriculum vitae</a></li>
+      <li><i class="ai ai-google-scholar" aria-hidden="true"></i><a href="{{ a.scholar }}">Google Scholar</a></li>
+      <li><i class="fa-brands fa-github" aria-hidden="true"></i><a href="{{ a.github }}">GitHub</a></li>
+      <li><i class="fa-brands fa-linkedin" aria-hidden="true"></i><a href="{{ a.linkedin }}">LinkedIn</a></li>
+    </ul>
+  </div>
+</aside>

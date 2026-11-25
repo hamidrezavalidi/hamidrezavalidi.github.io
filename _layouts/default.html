@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+{% include masthead.html %}
+<div class="wrap">
+  {% include sidebar.html %}
+  <main id="content" class="content">
+    {{ content }}
+  </main>
+</div>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Department of {{ site.author.department }}, {{ site.author.university }}.</p>
+  </div>
+</footer>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>

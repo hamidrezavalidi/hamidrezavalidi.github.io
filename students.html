@@ -1,0 +1,38 @@
+---
+layout: default
+title: Students
+permalink: /students/
+description: Ph.D. students, undergraduate researchers, and mentees advised by Hamidreza Validi.
+---
+{% assign s = site.data.students %}
+<h1 class="page-title">Students and mentees</h1>
+
+<p>I have been fortunate to work with a group of talented students at Texas Tech and elsewhere. Many of them are coauthors on the papers listed on my <a href="{{ '/research/' | relative_url }}">research page</a>.</p>
+
+<aside class="note">
+  <p><strong>Prospective students.</strong> If you are interested in integer programming, combinatorial optimization, or network optimization, email me your CV and a short note about the problems you would like to work on.</p>
+</aside>
+
+{% assign groups = "phd|Ph.D. students;undergrad|Undergraduate researchers;phd_mentees|Ph.D. mentees;undergrad_mentees|Undergraduate mentees" | split: ";" %}
+{% for gdef in groups %}
+  {% assign parts = gdef | split: "|" %}
+  {% assign key = parts[0] %}
+  {% assign people = s[key] %}
+  <section class="section">
+    <h2>{{ parts[1] }}</h2>
+    {% assign current = people | where: "end", "present" %}
+    {% assign past = people | where_exp: "x", "x.end != 'present'" %}
+    {% if current.size > 0 %}
+    <h3 class="sub-heading">Current</h3>
+    <ul class="people">
+      {% for x in current %}{% include person.html x=x %}{% endfor %}
+    </ul>
+    {% endif %}
+    {% if past.size > 0 %}
+    <h3 class="sub-heading">Former</h3>
+    <ul class="people">
+      {% for x in past %}{% include person.html x=x %}{% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+{% endfor %}

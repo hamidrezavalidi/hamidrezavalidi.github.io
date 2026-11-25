@@ -1,0 +1,21 @@
+# Selected talks, newest first. The full list is in the CV.
+- title: "The longest induced path problem: Approximation hardness, primal heuristics, and MIP models"
+  venues: ["2026 Mixed Integer Programming Workshop, University of Connecticut, May 2026"]
+- title: Sport scheduling to minimize travels at the FIFA World Cup 2026
+  venues: ["2026 IISE Annual Conference, Arlington, May 2026"]
+- title: Polytime procedures for conflict inequalities, elimination, and fixing
+  venues: ["Research Seminar Series, Texas A&M University, September 2025", "2025 Mixed Integer Programming Workshop, University of Minnesota, June 2025 (invited)"]
+- title: Maximizing engagement in large-scale social networks
+  venues: ["2025 INFORMS Annual Meeting, Atlanta, October 2025"]
+- title: Healthcare at the intersection of machine learning and optimization
+  venues: ["Annual Research Day, Whitacre College of Engineering, Texas Tech University, February 2025"]
+- title: Compact mixed integer programming formulations for the minimum biclique cover problem
+  venues: ["2024 INFORMS Annual Meeting, Seattle, October 2024", "2024 INFORMS TNA Conference (online), May 2024"]
+- title: MIP formulations for partitioning a graph into low-diameter clusters
+  venues: ["2024 INFORMS Optimization Society Conference, Houston, March 2024", "INFORMS Annual Meetings 2021 and 2022"]
+- title: Formulations of the max k-cut problem on classical and quantum computers
+  venues: ["Department of Industrial and Systems Engineering, University of Florida, March 2022", "2022 INFORMS Optimization Society Conference, Greenville, March 2022"]
+- title: Mixed integer programming in the era of quantum computing and machine learning
+  venues: ["CAAM Colloquium, Rice University, November 2021"]
+- title: Imposing contiguity constraints in political districting models
+  venues: ["CAAM Colloquium, Rice University, October 2020", "GAMMA Seminar, University at Buffalo, March 2020", "Voting Rights Data Institute, Tufts University, July 2019", "Mixed Integer Programming Workshop, MIT, July 2019 (poster finalist)"]

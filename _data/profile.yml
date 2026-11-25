@@ -1,0 +1,37 @@
+# Honors, service, appointments, and education shown on the home page, newest first.
+# The full lists are in the CV (files/cv.pdf).
+
+honors:
+  - {year: "2026", text: "Third place, INFORMS JFIG Teaching Excellence Award"}
+  - {year: "2026", text: "INFORMS Senior Member"}
+  - {year: "2026–27", text: "Fellow, Institute for Faculty Excellence, Texas Tech University"}
+  - {year: "2026", text: "Societal Impact Fellow, Texas Tech University"}
+  - {year: "2026", text: "Faculty C-Startup Award, Texas Tech University"}
+  - {year: "2024, 2026", text: "Most Influential Faculty Member, Edward E. Whitacre Jr. College of Engineering, Texas Tech University"}
+  - {year: "2025", text: "Invited speaker, Mixed Integer Programming Workshop, University of Minnesota"}
+  - {year: "2025", text: "Runner-up, INFORMS TNA Section Best Paper Award"}
+  - {year: "2023", text: "Winner, INFORMS TNA Section Best Dissertation Award"}
+  - {year: "2021", text: "Winner, INFORMS Computing Society Harvey J. Greenberg Research Award"}
+  - {year: "2020", text: "Outstanding Graduate Student Award, College of Engineering, Architecture, and Technology, Oklahoma State University"}
+  - {year: "2019–20", text: "John L. Imhoff Scholarship, Institute of Industrial and Systems Engineers"}
+  - {year: "2019", text: "Phoenix Award for Outstanding Graduate Teaching Assistant, Oklahoma State University"}
+  - {year: "2018–19", text: "E. J. Sierleja Memorial Fellowship, Institute of Industrial and Systems Engineers"}
+
+service:
+  - "Guest Editor, Journal of Global Optimization"
+  - "Treasurer (2026–present), Secretary (2025–2026), and Council Member (2022–2025), INFORMS Section on Telecommunications and Network Analytics"
+  - "Chair, Organizing Committee, 2026 INFORMS TNA Conference"
+  - "Member, 2026 Best Paper Award Committees of the INFORMS PSOR and TNA Sections, and the 2024 INFORMS Computing Society Harvey J. Greenberg Research Award Committee"
+  - "Member, INFORMS Meetings Committee, 2022–2026"
+  - "Cluster Chair, Telecommunications and Network Analytics, INFORMS Annual Meetings 2022 and 2023"
+  - "Member, Faculty Senate, Texas Tech University, 2025–2027"
+  - "Referee for Operations Research, Mathematical Programming, INFORMS Journal on Computing, European Journal of Operational Research, Networks, IISE Transactions, Naval Research Logistics, IPCO, and others"
+
+education:
+  - {degree: "Ph.D., Industrial Engineering and Management", school: Oklahoma State University, year: "2020"}
+  - {degree: "M.Sc., Industrial Engineering", school: Sharif University of Technology, year: "2014"}
+  - {degree: "B.Sc., Industrial Engineering", school: Ferdowsi University of Mashhad, year: "2012"}
+
+positions:
+  - {role: Assistant Professor, place: "Industrial, Manufacturing, and Systems Engineering, Texas Tech University", years: "2022–present"}
+  - {role: Postdoctoral Research Associate, place: "Computational Applied Mathematics and Operations Research, Rice University", years: "2020–2022"}

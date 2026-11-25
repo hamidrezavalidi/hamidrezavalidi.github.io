@@ -1,0 +1,74 @@
+# Students and mentees. "end: present" marks current members.
+# Optional: coadvisor, links (list of {label, url}).
+
+phd:
+  - name: Alexandre Mandelli Neto
+    school: Texas Tech University
+    start: Fall 2026
+    end: present
+  - name: Yuechuan Yang
+    school: Texas Tech University
+    start: Fall 2026
+    end: present
+    coadvisor: Tim Tsang
+  - name: Jalal Bagherzadeh
+    school: Texas Tech University
+    start: Fall 2026
+    end: present
+    coadvisor: Burak Eksioglu
+  - name: Igor Cardoso
+    school: Texas Tech University
+    start: Spring 2025
+    end: present
+    links:
+      - {label: website, url: "https://igorlucindo.github.io/"}
+      - {label: scholar, url: "https://scholar.google.com/citations?user=h3CWq2kAAAAJ&hl=en"}
+      - {label: linkedin, url: "https://www.linkedin.com/in/igorlucindo/"}
+  - name: Rogelio Gutierrez
+    school: Texas Tech University
+    start: Fall 2024
+    end: present
+  - name: Gabriel Teodoro
+    school: Texas Tech University
+    start: Fall 2024
+    end: present
+  - name: Colton Mikes
+    school: Texas Tech University
+    start: Fall 2022
+    end: Fall 2024
+    coadvisor: Ismael de Farias and David Gutman
+
+undergrad:
+  - name: Thiago Barbosa
+    school: Military Institute of Engineering, Brazil
+    start: Fall 2024
+    end: present
+  - name: Pedro Vieira
+    school: Military Institute of Engineering, Brazil
+    start: Fall 2024
+    end: Spring 2026
+  - name: Bruno Burin
+    school: Military Institute of Engineering, Brazil
+    start: Fall 2023
+    end: Fall 2025
+  - name: Lucas Silveira
+    school: Military Institute of Engineering, Brazil
+    start: Fall 2022
+    end: Spring 2026
+
+phd_mentees:
+  - {name: Faraz Khoshbakhtian, school: University of Toronto, start: Spring 2021, end: present}
+  - {name: Aysenur Karagoz, school: Rice University, start: Spring 2022, end: Fall 2024}
+  - {name: Samuel Kroger, school: Rice University, start: Fall 2020, end: Summer 2024}
+  - {name: Jackson Forner, school: Rice University, start: Spring 2022, end: Fall 2023}
+  - {name: Ramin Fakhimi, school: Lehigh University, start: Fall 2020, end: Spring 2023}
+  - {name: Rafael Cacao, school: Texas Tech University, start: Spring 2022, end: Spring 2023}
+  - {name: Lucas Cortez, school: Texas Tech University, start: Spring 2022, end: Spring 2023}
+  - {name: Brandon Alston, school: Rice University, start: Fall 2020, end: Summer 2022}
+  - {name: Stuart Bixby, school: University of Houston, start: Fall 2020, end: Fall 2021}
+
+undergrad_mentees:
+  - {name: Colt Adams, school: Rice University, start: Fall 2025, end: present}
+  - {name: Jack Zhang, school: Rice University, start: Fall 2021, end: Fall 2025}
+  - {name: Charlie Liu, school: Rice University, start: Spring 2023, end: Fall 2024}
+  - {name: Elizabeth Bunting, school: Oklahoma State University, start: Summer 2018, end: Fall 2018}

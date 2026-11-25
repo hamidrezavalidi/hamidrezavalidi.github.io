@@ -1,0 +1,256 @@
+# Refereed journal papers, newest first.
+# Authors: write "H. Validi" exactly for yourself (shown in bold).
+# Prefix a co-author with * to mark a mentee (e.g., "*S. Kroger").
+# tags must be keys from _data/topics.yml.
+# Optional fields: status, details, award, links.
+
+- title: On diameter-bounded compact political districts with application to minority-majority redistricting
+  authors: ["*S. Kroger", "H. Validi", "I. V. Hicks", "T. Perini"]
+  venue: INFORMS Journal on Computing
+  venue_short: IJOC
+  status: Accepted
+  year: 2026
+  tags: [districting]
+  links:
+    - {label: paper, url: "https://optimization-online.org/2024/08/bounding-the-number-and-the-diameter-of-optimal-compact-black-majority-districts/"}
+    - {label: code, url: "https://github.com/samuel-kroger/Bounding-the-number-and-the-diameter-of-optimal-compact-Black-majority-districts"}
+
+- title: Characterizing QUBO reformulations of the max-k-cut problem for quantum computing
+  selected: true
+  authors: ["A. Harkness", "H. Validi", "*R. Fakhimi", "I. V. Hicks", "S. Stein", "T. Terlaky", "L. F. Zuluaga"]
+  venue: INFORMS Journal on Computing
+  venue_short: IJOC
+  status: Accepted
+  year: 2026
+  tags: [quantum, partitioning]
+  links:
+    - {label: arXiv, url: "https://arxiv.org/abs/2511.01108"}
+    - {label: code, url: "https://github.com/AdrianHarkness/Max_K_Cut"}
+
+- title: Partitioning a graph into low-diameter clusters
+  selected: true
+  authors: ["*J. Zhang", "*L. Silveira", "H. Validi", "L. Smith", "A. Buchanan", "I. V. Hicks"]
+  venue: INFORMS Journal on Computing
+  venue_short: IJOC
+  status: To appear
+  year: 2026
+  tags: [partitioning]
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2025.1448"}
+    - {label: pdf, url: "https://optimization-online.org/wp-content/uploads/2024/10/Partitioning_a_graph_into_low_diameter_clusters_paper.pdf"}
+    - {label: code, url: "https://github.com/JackDaihanZhang/Partitioning-a-graph-into-low-diameter-clusters/tree/main"}
+
+- title: Mixed integer linear optimization formulations for learning optimal binary classification trees
+  authors: ["*B. Alston", "H. Validi", "I. V. Hicks"]
+  venue: INFORMS Journal on Computing
+  venue_short: IJOC
+  status: To appear
+  year: 2026
+  tags: [ml]
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2023.0068"}
+    - {label: arXiv, url: "https://arxiv.org/abs/2206.04857"}
+    - {label: code, url: "https://github.com/brandalston/OBCT"}
+
+- title: "Odd-length exchanges in ABO-only kidney exchange: A feasibility puzzle for the classroom"
+  authors: ["*G. Teodoro", "H. Validi"]
+  venue: INFORMS Transactions on Education
+  venue_short: ITE
+  status: To appear
+  year: 2026
+  tags: [healthcare, education]
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/ited.2025.0193"}
+    - {label: interface, url: "https://gabrieltepin.github.io/odd_cycle_puzzle/"}
+    - {label: code, url: "https://github.com/gabrieltepin/odd_cycle_puzzle/tree/master"}
+
+- title: Sport scheduling to minimize travels at the FIFA World Cup 2026
+  authors: ["*R. Gutierrez", "*I. Cardoso", "H. Validi"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "20(6): 1137–1157"
+  year: 2026
+  tags: [scheduling]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-026-02320-x"}
+    - {label: app, url: "https://igorlucindo.github.io/fifa-world-cup-2026-scheduler-APP/"}
+    - {label: code, url: "https://github.com/hamidrezavalidi/FIFA_World_Cup_2026"}
+
+- title: A cut-based mixed integer programming formulation for the hop-constrained cheapest path problem
+  authors: ["*P. V. Rocha", "H. Validi"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "20(7): 1343–1356"
+  year: 2026
+  tags: [networks]
+  award: Runner-up, Undergraduate Paper Competition, 2025 IISE Operations Research Division
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-026-02300-1"}
+    - {label: pdf, url: "https://optimization-online.org/2026/04/a-cut-based-mixed-integer-programming-formulation-for-the-hop-constrained-cheapest-path-problem/"}
+    - {label: code, url: "https://github.com/vieirinha1104/MIP-Model-for-the-Hop-Constrained-Cheapest-Path-Problem"}
+
+- title: Compact mixed integer programming formulations for the minimum biclique cover problem
+  authors: ["*B. Burin", "H. Validi", "B. Lyu", "I. V. Hicks"]
+  venue: Networks
+  venue_short: NET
+  details: "87(3): 257–265"
+  year: 2026
+  tags: [networks]
+  links:
+    - {label: paper, url: "https://onlinelibrary.wiley.com/doi/10.1002/net.70020"}
+    - {label: pdf, url: "https://optimization-online.org/wp-content/uploads/2024/07/Compact_MIP_Formulations_for_the_Minimum_Biclique_Cover_Problem_HV.pdf"}
+    - {label: code, url: "https://github.com/bcburin/compact-mip-formulations-for-the-minimum-biclique-cover-problem"}
+
+- title: A folding preprocess for the max k-cut problem
+  authors: ["*R. Fakhimi", "H. Validi", "I. V. Hicks", "T. Terlaky", "L. F. Zuluaga"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "19(5): 899–917"
+  year: 2025
+  tags: [partitioning]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-025-02199-0"}
+    - {label: pdf, url: "https://optimization-online.org/2024/11/a-folding-preprocess-for-the-max-k-cut-problem/"}
+    - {label: code, url: "https://github.com/QCOL-LU/MaxKcut"}
+
+- title: Strengthened MIP formulations for the liver region redesign models of Akshat et al.
+  authors: ["*A. Karagoz", "*R. Liu", "H. Validi"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "19(3): 505–525"
+  year: 2025
+  tags: [healthcare, partitioning]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-024-02179-w"}
+    - {label: code, url: "https://github.com/Alpha-kun/Stronger_MIP_Formulations_for_the_Liver_Region_Redesign_Problem"}
+    - {label: news, url: "https://cmor.rice.edu/news/operations-research-senior-awarded-scholarship-present-paper-informs"}
+
+- title: Maximizing engagement in large-scale social networks
+  authors: ["*S. Kroger", "H. Validi", "I. V. Hicks"]
+  venue: INFORMS Journal on Optimization
+  venue_short: IJOO
+  details: "6(3–4): 196–213"
+  year: 2024
+  tags: [networks]
+  award: Runner-up, 2025 INFORMS TNA Section Best Paper Award
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2022.0024"}
+    - {label: code, url: "https://github.com/samuel-kroger/Maximizing-resilience-in-large-scale-social-networks"}
+
+- title: "Optimal design of vaccination policies: A case study for Newfoundland and Labrador"
+  authors: ["*F. Khoshbakhtian", "H. Validi", "M. Ventresca", "D. Aleman"]
+  venue: Operations Research Letters
+  venue_short: ORL
+  details: "55: 107140"
+  year: 2024
+  tags: [healthcare, networks]
+  links:
+    - {label: paper, url: "https://www.sciencedirect.com/science/article/pii/S0167637724000762"}
+    - {label: arXiv, url: "https://arxiv.org/abs/2308.05204"}
+    - {label: code, url: "https://github.com/faraz2023/optimal-design-of-vaccination-policies"}
+
+- title: A polytime preprocess algorithm for the maximum independent set problem
+  authors: ["*S. Kroger", "H. Validi", "I. V. Hicks"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "18(2): 651–661"
+  year: 2024
+  tags: [networks]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-023-02076-8"}
+    - {label: pdf, url: "https://optimization-online.org/2023/11/a-polytime-preprocess-algorithm-for-the-maximum-independent-set-problem/"}
+    - {label: code, url: "https://github.com/samuel-kroger/A-polytime-preprocess-algorithm-for-the-maximum-independent-set-problem"}
+
+- title: Linear-size formulations for connected planar graph partitioning and political districting
+  authors: ["*J. Zhang", "H. Validi", "A. Buchanan", "I. V. Hicks"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "18(1): 19–31"
+  year: 2024
+  tags: [districting, partitioning]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-023-02070-0"}
+    - {label: pdf, url: "https://optimization-online.org/2022/08/linear-size-formulations-for-connected-planar-graph-partitioning-and-political-districting/"}
+    - {label: code, url: "https://github.com/JackDaihanZhang/Linear-size-formulations-for-connected-planar-graph-partitioning-and-political-districting"}
+
+- title: The set partitioning problem in a quantum context
+  authors: ["*R. Cacao", "*L. Cortez", "*J. Forner", "H. Validi", "I. R. de Farias", "I. V. Hicks"]
+  venue: Optimization Letters
+  venue_short: OPTL
+  details: "18(1): 1–17"
+  year: 2024
+  tags: [quantum]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s11590-023-02029-1"}
+    - {label: pdf, url: "https://optimization-online.org/2023/06/the-set-partitioning-problem-in-a-quantum-context/"}
+    - {label: code, url: "https://github.com/rafafariasc/VQE---Set-Partitioning"}
+
+- title: On relaxations of the max k-cut problem formulations
+  authors: ["*R. Fakhimi", "H. Validi", "I. V. Hicks", "T. Terlaky", "L. F. Zuluaga"]
+  venue: Operations Research Letters
+  venue_short: ORL
+  details: "51(5): 521–527"
+  year: 2023
+  tags: [partitioning]
+  links:
+    - {label: paper, url: "https://www.sciencedirect.com/science/article/abs/pii/S0167637723001293"}
+    - {label: arXiv, url: "https://arxiv.org/pdf/2308.01361.pdf"}
+    - {label: code, url: "https://github.com/QCOL-LU/MaxKcut"}
+
+- title: Political districting to minimize cut edges
+  selected: true
+  authors: ["H. Validi", "A. Buchanan"]
+  venue: Mathematical Programming Computation
+  venue_short: MPC
+  details: "14: 623–672"
+  year: 2022
+  tags: [districting, partitioning]
+  links:
+    - {label: paper, url: "https://link.springer.com/article/10.1007/s12532-022-00221-5"}
+    - {label: pdf, url: "http://www.optimization-online.org/DB_FILE/2021/04/8349.pdf"}
+    - {label: code, url: "https://github.com/hamidrezavalidi/Political-Districting-to-Minimize-Cut-Edges"}
+
+- title: Imposing contiguity constraints in political districting models
+  selected: true
+  authors: ["H. Validi", "A. Buchanan", "E. Lykhovyd"]
+  venue: Operations Research
+  venue_short: OR
+  details: "70(2): 867–892"
+  year: 2022
+  tags: [districting]
+  award: Winner, 2021 INFORMS Computing Society Harvey J. Greenberg Research Award
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2141"}
+    - {label: pdf, url: "http://www.optimization-online.org/DB_HTML/2020/01/7582.html"}
+    - {label: code, url: "https://github.com/hamidrezavalidi/districting"}
+    - {label: slides, url: "https://drive.google.com/file/d/1PfSqXPcNIvSZNBK_7tDvEaJtD5r-aH7X/view?usp=sharing"}
+    - {label: video, url: "https://www.youtube.com/watch?v=lhUglxFTYyk"}
+    - {label: poster, url: "https://drive.google.com/file/d/1vxHYQvzefsUZVdB8FgwEg1KOfwdNDmKz/view?usp=sharing"}
+    - {label: news, url: "https://higherlogicdownload.s3.amazonaws.com/INFORMS/a4f852dd-2bdc-46bc-98e7-47e7d7c12752/UploadedImages/ICSNews_January2025.pdf"}
+
+- title: The optimal design of low-latency virtual backbones
+  authors: ["H. Validi", "A. Buchanan"]
+  venue: INFORMS Journal on Computing
+  venue_short: IJOC
+  details: "32(4): 952–967"
+  year: 2020
+  tags: [networks]
+  links:
+    - {label: paper, url: "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2019.0914"}
+    - {label: pdf, url: "http://www.optimization-online.org/DB_FILE/2018/05/6639.pdf"}
+    - {label: code, url: "https://github.com/hamidrezavalidi/LCDS"}
+    - {label: slides, url: "https://drive.google.com/file/d/1ckxr2ZaecPq3avnbpDVGhYybfqArqpE1/view?usp=sharing"}
+    - {label: video, url: "https://www.youtube.com/watch?v=s-g0Wf07CSM"}
+
+- title: A note on “A linear-size zero-one programming model for the minimum spanning tree problem in planar graphs”
+  authors: ["H. Validi", "A. Buchanan"]
+  venue: Networks
+  venue_short: NET
+  details: "73(1): 135–142"
+  year: 2019
+  tags: [networks]
+  links:
+    - {label: paper, url: "https://onlinelibrary.wiley.com/doi/10.1002/net.21849"}
+    - {label: pdf, url: "http://www.optimization-online.org/DB_FILE/2018/07/6699.pdf"}
+    - {label: slides, url: "https://drive.google.com/file/d/12TyVI3BaXlTrY30ASJfG-DylEE54AjZs/view?usp=sharing"}
+    - {label: poster, url: "https://drive.google.com/file/d/1mJRstLTZv43GxOpsohMxvDPUUUeeWAlZ/view?usp=sharing"}

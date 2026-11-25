@@ -1,0 +1,19 @@
+# Courses. role defaults to "Instructor" (full responsibility) when omitted.
+
+graduate:
+  - {code: IE 5331, title: Data-Driven Problem Solving for Engineers, school: Texas Tech, terms: Summer 2026, level: "M.S. & Ph.D."}
+  - {code: IE 5314, title: Mixed Integer Programming, school: Texas Tech, terms: "Fall 2023, Spring 2026", level: Ph.D.}
+  - {code: IE 5331, title: A Hands-on Programming Course on Solving Real-World Problems, school: Texas Tech, terms: Summer 2025, level: "M.S. & Ph.D."}
+  - {code: IE 5331, title: Network Optimization, school: Texas Tech, terms: "Spring 2023, 2025, 2027", level: Ph.D.}
+  - {code: IE 5318, title: Principles of Operations Research, school: Texas Tech, terms: "Fall 2023, 2024", level: "M.S. & Ph.D."}
+  - {code: CAAM 570, title: Graph Theory, school: Rice, terms: Spring 2022, level: Ph.D.}
+  - {code: INDE 546, title: Computational Prescriptive Analytics, school: Rice, terms: Spring 2021, level: M.S., role: Guest lecturer}
+  - {code: CAAM 501, title: Analysis I, school: Rice, terms: Fall 2020, level: Ph.D.}
+
+undergraduate:
+  - {code: IE 3311, title: Deterministic Operations Research, school: Texas Tech, terms: "Fall 2023, 2024, 2025, 2026"}
+  - {code: IE 4331, title: Data-Driven Problem Solving for Engineers, school: Texas Tech, terms: Summer 2026}
+  - {code: IE 4331, title: A Hands-on Programming Course on Solving Real-World Problems, school: Texas Tech, terms: Summer 2025}
+  - {code: IE 2311, title: Computing for Industrial Engineers, school: Texas Tech, terms: Fall 2022}
+  - {code: CAAM 470, title: Graph Theory, school: Rice, terms: Spring 2022}
+  - {code: IEM 3103, title: Probability and Statistics for Engineers I, school: Oklahoma State, terms: "Fall 2018, 2019"}

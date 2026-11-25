@@ -1,0 +1,48 @@
+---
+layout: default
+title: About
+---
+{% assign prof = site.data.profile %}
+<h1 class="page-title">About</h1>
+
+<p>I am an assistant professor in the Department of Industrial, Manufacturing, and Systems Engineering at Texas Tech University. Before joining Texas Tech in 2022, I was a postdoctoral research associate in the Department of Computational Applied Mathematics and Operations Research at Rice University. I received my Ph.D. in Industrial Engineering and Management from Oklahoma State University in 2020, and my M.Sc. and B.Sc. in Industrial Engineering from Sharif University of Technology and Ferdowsi University of Mashhad, respectively.</p>
+
+<p>My research is in integer programming and combinatorial optimization, with an emphasis on polyhedral methods, branch-and-cut algorithms, and network optimization. A recurring question in my work is how to partition a graph when the parts must satisfy connectivity, distance, or balance requirements. Applications include political redistricting, healthcare operations, machine learning, sports scheduling, and quantum computing. I am currently also working on supply chain and assortment problems.</p>
+
+<p>My papers have appeared in <cite>Operations Research</cite>, <cite>Mathematical Programming Computation</cite>, the <cite>INFORMS Journal on Computing</cite>, and other journals. Most of them are written with students, and the code behind them is on <a href="{{ site.author.github }}">GitHub</a>.</p>
+
+<section class="section">
+  <h2>Selected publications</h2>
+  <ol class="pub-list pub-list--compact">
+  {% for p in site.data.publications %}{% if p.selected %}{% include pub.html pub=p %}{% endif %}{% endfor %}
+  </ol>
+  <p class="more"><a href="{{ '/research/' | relative_url }}">All publications</a></p>
+</section>
+
+<section class="section">
+  <h2>Honors and awards</h2>
+  <dl class="year-list">
+  {% for h in prof.honors %}
+    <dt>{{ h.year }}</dt><dd>{{ h.text }}</dd>
+  {% endfor %}
+  </dl>
+</section>
+
+<section class="section">
+  <h2>Appointments and education</h2>
+  <dl class="year-list">
+  {% for x in prof.positions %}
+    <dt>{{ x.years }}</dt><dd>{{ x.role }}, {{ x.place }}</dd>
+  {% endfor %}
+  {% for e in prof.education %}
+    <dt>{{ e.year }}</dt><dd>{{ e.degree }}, {{ e.school }}</dd>
+  {% endfor %}
+  </dl>
+</section>
+
+<section class="section">
+  <h2>Service</h2>
+  <ul class="plain-list">
+  {% for s in prof.service %}<li>{{ s }}</li>{% endfor %}
+  </ul>
+</section>

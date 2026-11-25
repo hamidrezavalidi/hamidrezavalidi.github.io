@@ -1,0 +1,14 @@
+{% assign p = include.pub %}
+<li class="pub" data-tags="{{ p.tags | join: ' ' }}">
+  {% if include.number %}<span class="pub-num" aria-hidden="true">{{ include.number }}</span>{% endif %}
+  <div class="pub-body">
+    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-authors">{% include authors.html authors=p.authors %}</p>
+    <p class="pub-venue">
+      {% if p.venue_short %}<abbr class="venue-tag" title="{{ p.venue }}">{{ p.venue_short }}</abbr>{% endif %}
+      <span><cite>{{ p.venue }}</cite>{% if p.details %}, {{ p.details }}{% endif %}, {{ p.year }}{% if p.status %}. <span class="pub-status">{{ p.status }}</span>{% endif %}</span>
+    </p>
+    {% if p.award %}<p class="pub-award"><svg class="ribbon" viewBox="0 0 12 16" aria-hidden="true"><circle cx="6" cy="5.5" r="4.5"/><path d="M3 9.2 1.8 15.5 6 13.3l4.2 2.2L9 9.2"/></svg>{{ p.award }}</p>{% endif %}
+    {% if p.links %}<p class="pub-links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+  </div>
+</li>

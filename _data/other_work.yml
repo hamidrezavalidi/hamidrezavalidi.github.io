@@ -1,0 +1,38 @@
+# Submitted papers, other publications, and the dissertation.
+
+submitted:
+  - title: "The longest induced path problem: Approximation hardness, primal heuristics, and MIP formulations"
+    authors: ["*S. Kroger", "H. Validi"]
+    status: Major revision submitted to INFORMS Journal on Computing, September 2026
+  - title: Optimizing staff assignment for an organ procurement organization
+    authors: ["*G. Teodoro", "H. Validi", "H. Haro", "J. Moore", "J. Kirkendall", "S. Ibarra"]
+    status: Major revision at INFORMS Journal on Applied Analytics, November 2026
+  - title: k-Cell conflict bounds for path-enumeration problems with applications to word games and sequence design
+    authors: ["H. Validi", "*C. Adams", "A. Schaefer"]
+    status: Major revision at INFORMS Journal on Optimization, September 2026
+  - title: "Solving maximum well-connected 2-club problems: Complexity, polyhedra, and computation"
+    authors: ["H. Validi"]
+    status: Major revision submitted to European Journal of Operational Research, November 2026
+
+other:
+  - title: "Cutting travel and jet lag in the 2026 World Cup group stage: What smarter scheduling can deliver"
+    authors: ["H. Validi", "*R. Gutierrez", "*I. Cardoso"]
+    venue: "ORMS Today, 53(2): 24–27, 2026"
+    links:
+      - {label: article, url: "https://pubsonline.informs.org/do/10.1287/orms.2026.02.11"}
+  - title: Imposing contiguity constraints in political districting models
+    authors: ["H. Validi", "A. Buchanan", "E. Lykhovyd"]
+    venue: "INFORMS Computing Society Newsletter, pages 16–22, January 2025"
+  - title: Quantum approximate optimization algorithm (QAOA)
+    authors: ["R. Fakhimi", "H. Validi"]
+    venue: "In P. M. Pardalos and O. A. Prokopyev (eds.), Encyclopedia of Optimization, pages 1–7, 2020"
+    links:
+      - {label: paper, url: "https://link.springer.com/referenceworkentry/10.1007/978-3-030-54621-2_854-1"}
+      - {label: pdf, url: "https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/_DEPARTMENTS/ise/pdf/tech-papers/23/23T_014.pdf"}
+
+dissertation:
+  title: Imposing connectivity in network design problems
+  venue: Ph.D. dissertation, Oklahoma State University, June 2020
+  award: Winner, 2023 INFORMS TNA Section Best Dissertation Award
+  links:
+    - {label: ProQuest, url: "https://www.proquest.com/docview/2572619683"}

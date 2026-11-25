@@ -1,0 +1,50 @@
+# Site settings for https://hamidrezavalidi.github.io
+# After editing this file, GitHub Pages rebuilds the site automatically on push.
+
+title: Hamidreza Validi
+description: >-
+  Hamidreza Validi, Assistant Professor of Industrial, Manufacturing, and Systems
+  Engineering at Texas Tech University. Integer programming, combinatorial
+  optimization, and network optimization.
+url: "https://hamidrezavalidi.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Hamidreza Validi
+  short_name: Hamid Validi
+  title: Assistant Professor
+  department: Industrial, Manufacturing, & Systems Engineering
+  department_url: https://www.depts.ttu.edu/imse/
+  university: Texas Tech University
+  university_url: https://www.ttu.edu
+  location: Lubbock, Texas
+  email_user: hvalidi
+  email_domain: ttu.edu
+  photo: /assets/img/profile.jpg
+  office: IMSE 213
+  cv: /files/cv.pdf
+  scholar: https://scholar.google.com/citations?user=m49O5K0AAAAJ&hl=en
+  github: https://github.com/hamidrezavalidi
+  linkedin: https://www.linkedin.com/in/hamidrezavalidi/
+
+navigation:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Students
+    url: /students/
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: cv
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts

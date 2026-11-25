@@ -1,0 +1,6 @@
+{% assign x = include.x %}
+<li class="person">
+  <span class="person-name">{{ x.name }}</span>
+  <span class="person-info"><span class="person-meta">{{ x.school }}, {{ x.start }}{% if x.end != x.start %} to {{ x.end }}{% endif %}{% if x.coadvisor %}. Co-advised with {{ x.coadvisor }}{% endif %}</span>
+  {% if x.links %}<span class="pub-links">{% for l in x.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</span>{% endif %}</span>
+</li>

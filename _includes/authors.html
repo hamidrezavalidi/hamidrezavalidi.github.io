@@ -1,0 +1,7 @@
+{%- for au in include.authors -%}
+{%- assign first = au | slice: 0 -%}
+{%- if au == "H. Validi" -%}<span class="me">H. Validi</span>
+{%- elsif first == "*" -%}<span class="mentee" title="Mentee">{{ au | remove_first: "*" }}</span>
+{%- else -%}{{ au }}{%- endif -%}
+{%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}
