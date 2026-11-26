@@ -34,10 +34,8 @@ or locally, commit, and the site updates itself.
 | --- | --- |
 | Name, title, links, CV link | `_config.yml` |
 | Journal articles | `_data/publications.yml` |
-| Papers under review, other writing, dissertation | `_data/other_work.yml` |
-| Topic filters on the Research page | `_data/topics.yml` |
+| Other publications and dissertation | `_data/other_work.yml` |
 | Students and mentees | `_data/students.yml` |
-| Selected talks | `_data/talks.yml` |
 | Courses | `_data/teaching.yml` |
 | About text | `index.html` |
 | Research intro and themes | `research.html` |
@@ -56,7 +54,6 @@ Copy an existing entry in `_data/publications.yml` to the top of the file and ed
   details: "38(1): 1–20"        # optional
   status: To appear            # optional
   year: 2027
-  tags: [partitioning]          # keys from _data/topics.yml
   award: Winner, ...            # optional
   selected: true                # optional, shows it on the home page
   links:

@@ -2,55 +2,23 @@
 layout: default
 title: Research
 permalink: /research/
-description: Publications, working papers, and code by Hamidreza Validi on integer programming, graph partitioning, political districting, and network optimization.
+description: Journal articles, other publications, and dissertation of Hamidreza Validi.
 ---
 {% assign pubs = site.data.publications %}
 {% assign ow = site.data.other_work %}
 <h1 class="page-title">Research</h1>
 
-<p>I study integer programming and combinatorial optimization problems on graphs and networks. My work develops formulations, valid inequalities, and branch-and-cut methods, and tests them on applications where they matter.</p>
-
-<dl class="themes">
-  <dt>Connectivity and political districting</dt>
-  <dd>Contiguity constraints, compactness objectives, and cut-edge minimization for building districts at the scale of real census data.</dd>
-  <dt>Graph partitioning and clustering</dt>
-  <dd>Low-diameter clusters, max k-cut, and connected partitions of planar graphs.</dd>
-  <dt>Optimization for quantum computing</dt>
-  <dd>QUBO reformulations and their penalty parameters, and classical preprocessing for quantum algorithms.</dd>
-  <dt>Applications</dt>
-  <dd>Healthcare operations, sports scheduling, interpretable machine learning, and supply chains.</dd>
-</dl>
-
-<p>Links to all of my work are on <a href="{{ site.author.scholar }}">Google Scholar</a> and <a href="{{ site.author.github }}">GitHub</a>.</p>
-
 <section class="section" id="journal">
   <h2>Journal articles</h2>
   <p class="legend">An asterisk marks a student or mentee coauthor.</p>
-
-  <div class="filters" id="pub-filters" hidden>
-    <span class="filters-label" id="filters-label">Filter by topic</span>
-    <div class="chips" role="group" aria-labelledby="filters-label">
-      <button type="button" class="chip" data-topic="all" aria-pressed="true">All</button>
-      {% for t in site.data.topics %}<button type="button" class="chip" data-topic="{{ t[0] }}" aria-pressed="false">{{ t[1] }}</button>{% endfor %}
-    </div>
-    <p class="filter-count" id="filter-count" aria-live="polite"></p>
-  </div>
-
-  {% assign total = pubs | size %}
-  {% assign n = total %}
-  {% assign by_year = pubs | group_by: "year" %}
-  {% for g in by_year %}
-  <div class="year-group">
-    <h3 class="year-heading">{{ g.name }}</h3>
-    <ol class="pub-list">
-      {% for p in g.items %}
-        {% capture num %}J{{ n }}{% endcapture %}
-        {% include pub.html pub=p number=num %}
-        {% assign n = n | minus: 1 %}
-      {% endfor %}
-    </ol>
-  </div>
-  {% endfor %}
+  {% assign n = pubs | size %}
+  <ol class="pub-list">
+    {% for p in pubs %}
+      {% capture num %}J{{ n }}{% endcapture %}
+      {% include pub.html pub=p number=num %}
+      {% assign n = n | minus: 1 %}
+    {% endfor %}
+  </ol>
 </section>
 
 <section class="section" id="submitted">
@@ -68,8 +36,8 @@ description: Publications, working papers, and code by Hamidreza Validi on integ
   </ol>
 </section>
 
-<section class="section" id="other">
-  <h2>Other writing</h2>
+<section class="section" id="others">
+  <h2>Others</h2>
   <ol class="pub-list">
   {% for p in ow.other %}
     <li class="pub">
@@ -97,17 +65,4 @@ description: Publications, working papers, and code by Hamidreza Validi on integ
       </div>
     </li>
   </ol>
-</section>
-
-<section class="section" id="talks">
-  <h2>Selected talks</h2>
-  <ul class="talks">
-  {% for t in site.data.talks %}
-    <li>
-      <p class="talk-title">{{ t.title }}</p>
-      <ul class="talk-venues">{% for v in t.venues %}<li>{{ v }}</li>{% endfor %}</ul>
-    </li>
-  {% endfor %}
-  </ul>
-  <p class="more"><a href="{{ site.author.cv | relative_url }}">Full list in my CV</a></p>
 </section>

@@ -7,9 +7,6 @@ description: Ph.D. students, undergraduate researchers, and mentees advised by H
 {% assign s = site.data.students %}
 <h1 class="page-title">Students and mentees</h1>
 
-<p>I have been fortunate to work with a group of talented students at Texas Tech and elsewhere. Many of them are coauthors on the papers listed on my <a href="{{ '/research/' | relative_url }}">research page</a>.</p>
-
-
 {% assign groups = "phd|Ph.D. students;undergrad|Undergraduate researchers;phd_mentees|Ph.D. mentees;undergrad_mentees|Undergraduate mentees" | split: ";" %}
 {% for gdef in groups %}
   {% assign parts = gdef | split: "|" %}
