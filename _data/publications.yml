@@ -15,7 +15,7 @@
     - {label: paper, url: "https://optimization-online.org/2024/08/bounding-the-number-and-the-diameter-of-optimal-compact-black-majority-districts/"}
     - {label: code, url: "https://github.com/samuel-kroger/Bounding-the-number-and-the-diameter-of-optimal-compact-Black-majority-districts"}
 
-- title: Characterizing QUBO reformulations of the max-k-cut problem for quantum computing
+- title: "Characterizing QUBO reformulations of the max-$k$-cut problem for quantum computing"
   selected: true
   authors: ["A. Harkness", "H. Validi", "*R. Fakhimi", "I. V. Hicks", "S. Stein", "T. Terlaky", "L. F. Zuluaga"]
   venue: INFORMS Journal on Computing
@@ -101,7 +101,7 @@
     - {label: pdf, url: "https://optimization-online.org/wp-content/uploads/2024/07/Compact_MIP_Formulations_for_the_Minimum_Biclique_Cover_Problem_HV.pdf"}
     - {label: code, url: "https://github.com/bcburin/compact-mip-formulations-for-the-minimum-biclique-cover-problem"}
 
-- title: A folding preprocess for the max k-cut problem
+- title: "A folding preprocess for the max $k$-cut problem"
   authors: ["*R. Fakhimi", "H. Validi", "I. V. Hicks", "T. Terlaky", "L. F. Zuluaga"]
   venue: Optimization Letters
   venue_short: OPTL
@@ -185,7 +185,7 @@
     - {label: pdf, url: "https://optimization-online.org/2023/06/the-set-partitioning-problem-in-a-quantum-context/"}
     - {label: code, url: "https://github.com/rafafariasc/VQE---Set-Partitioning"}
 
-- title: On relaxations of the max k-cut problem formulations
+- title: "On relaxations of the max $k$-cut problem formulations"
   authors: ["*R. Fakhimi", "H. Validi", "I. V. Hicks", "T. Terlaky", "L. F. Zuluaga"]
   venue: Operations Research Letters
   venue_short: ORL

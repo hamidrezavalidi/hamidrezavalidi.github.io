@@ -7,7 +7,7 @@ submitted:
   - title: Optimizing staff assignment for an organ procurement organization
     authors: ["*G. Teodoro", "H. Validi", "H. Haro", "J. Moore", "J. Kirkendall", "S. Ibarra"]
     status: Major revision at INFORMS Journal on Applied Analytics, November 2026
-  - title: k-Cell conflict bounds for path-enumeration problems with applications to word games and sequence design
+  - title: "$k$-cell conflict bounds for path-enumeration problems with applications to word games and sequence design"
     authors: ["H. Validi", "*C. Adams", "A. Schaefer"]
     status: Major revision at INFORMS Journal on Optimization, September 2026
   - title: "Solving maximum well-connected 2-club problems: Complexity, polyhedra, and computation"

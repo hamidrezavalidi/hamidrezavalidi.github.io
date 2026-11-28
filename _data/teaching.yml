@@ -1,4 +1,4 @@
-# Courses. role defaults to "Instructor" (full responsibility) when omitted.
+# Courses. Optional fields: level, role, award (shown with a ribbon under the title).
 
 graduate:
   - {code: IE 5331, title: Data-Driven Problem Solving for Engineers, school: Texas Tech, terms: Summer 2026, level: "M.S. & Ph.D."}
@@ -11,7 +11,7 @@ graduate:
   - {code: CAAM 501, title: Analysis I, school: Rice, terms: Fall 2020, level: Ph.D.}
 
 undergraduate:
-  - {code: IE 3311, title: Deterministic Operations Research, school: Texas Tech, terms: "Fall 2023, 2024, 2025, 2026"}
+  - {code: IE 3311, title: Deterministic Operations Research, school: Texas Tech, terms: "Fall 2023, 2024, 2025, 2026", award: "Third place, 2026 INFORMS JFIG Teaching Excellence Award"}
   - {code: IE 4331, title: Data-Driven Problem Solving for Engineers, school: Texas Tech, terms: Summer 2026}
   - {code: IE 4331, title: A Hands-on Programming Course on Solving Real-World Problems, school: Texas Tech, terms: Summer 2025}
   - {code: IE 2311, title: Computing for Industrial Engineers, school: Texas Tech, terms: Fall 2022}

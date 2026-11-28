@@ -61,7 +61,8 @@ Copy an existing entry in `_data/publications.yml` to the top of the file and ed
     - {label: code, url: "https://github.com/..."}
 ```
 
-Numbering (J1, J2, ...) and year grouping are automatic.
+Numbering (J1, J2, ...) is automatic. For math in a title, use LaTeX between dollar signs and put
+the whole title in quotes, e.g. `title: "A folding preprocess for the max $k$-cut problem"`.
 
 ### Update your CV
 

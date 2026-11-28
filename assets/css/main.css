@@ -99,6 +99,9 @@ abbr[title] { text-decoration: none; }
 }
 .page-title + .section { margin-top: 1.5rem; }
 .page-title + .section > h2 { border-top: 0; padding-top: 0; }
+.content > .section:first-child { margin-top: 0; }
+.content > .section:first-child > h2 { border-top: 0; padding-top: 0; font-size: 1.6rem; margin-bottom: .6rem; }
+.katex { font-size: 1em; }
 .sub-heading { font-family: var(--sans); font-size: .875rem; font-weight: 500; color: var(--muted); margin: 1.25rem 0 .5rem; }
 .legend { font-family: var(--sans); font-size: .8125rem; color: var(--muted); margin: -.4rem 0 1rem; }
 .more { font-family: var(--sans); font-size: .9375rem; margin-top: .25rem; }
@@ -179,12 +182,15 @@ abbr[title] { text-decoration: none; }
 .person .pub-links { margin-top: 0 !important; }
 
 /* Teaching -------------------------------------------------------------- */
-.courses { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.courses { width: 100%; border-collapse: collapse; font-size: 1rem; table-layout: fixed; }
+.courses th:nth-child(1) { width: 6.25rem; }
+.courses th:nth-child(3) { width: 12rem; }
 .courses th { font-family: var(--sans); font-size: .8125rem; font-weight: 500; color: var(--muted); text-align: left; padding: 0 .75rem .5rem 0; border-bottom: 1px solid var(--rule); }
 .courses td { padding: .65rem .75rem .65rem 0; border-bottom: 1px solid var(--wash); vertical-align: top; }
-.course-code { font-family: var(--sans); font-size: .875rem; white-space: nowrap; color: var(--ink); padding-top: .78rem !important; }
+.course-code { font-family: var(--sans); font-size: .875rem; color: var(--ink); padding-top: .78rem !important; }
 .course-title { font-weight: 400; }
 .course-meta { display: block; font-weight: 400; color: var(--muted); font-size: .9375rem; }
+.course-award { display: flex; gap: .45rem; align-items: baseline; margin-top: .3rem; font-family: var(--sans); font-size: .8125rem; font-weight: 400; color: var(--accent); }
 .course-when { color: var(--muted); font-size: .9375rem; white-space: nowrap; }
 
 /* Footer ---------------------------------------------------------------- */

@@ -5,9 +5,7 @@ permalink: /teaching/
 description: Courses taught by Hamidreza Validi at Texas Tech University, Rice University, and Oklahoma State University.
 ---
 {% assign t = site.data.teaching %}
-<h1 class="page-title">Teaching</h1>
-
-{% assign groups = "graduate|Graduate courses;undergraduate|Undergraduate courses" | split: ";" %}
+{% assign groups = "undergraduate|Undergraduate courses;graduate|Graduate courses" | split: ";" %}
 {% for gdef in groups %}
   {% assign parts = gdef | split: "|" %}
   {% assign key = parts[0] %}
@@ -20,7 +18,7 @@ description: Courses taught by Hamidreza Validi at Texas Tech University, Rice U
       {% for c in courses %}
         <tr>
           <td class="course-code">{{ c.code }}</td>
-          <td class="course-title">{{ c.title }}{% if c.level or c.role %}<span class="course-meta">{% if c.level %}{{ c.level }}{% endif %}{% if c.level and c.role %}, {% endif %}{% if c.role %}{{ c.role }}{% endif %}</span>{% endif %}</td>
+          <td class="course-title">{{ c.title }}{% if c.level or c.role %}<span class="course-meta">{% if c.level %}{{ c.level }}{% endif %}{% if c.level and c.role %}, {% endif %}{% if c.role %}{{ c.role }}{% endif %}</span>{% endif %}{% if c.award %}<span class="course-award"><svg class="ribbon" viewBox="0 0 12 16" aria-hidden="true"><circle cx="6" cy="5.5" r="4.5"/><path d="M3 9.2 1.8 15.5 6 13.3l4.2 2.2L9 9.2"/></svg>{{ c.award }}</span>{% endif %}</td>
           <td class="course-when">{{ c.school }}<br>{{ c.terms }}</td>
         </tr>
       {% endfor %}
