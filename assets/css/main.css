@@ -75,7 +75,11 @@ abbr[title] { text-decoration: none; }
 /* Profile column -------------------------------------------------------- */
 .profile { position: sticky; top: 1.5rem; font-family: var(--sans); font-size: .875rem; line-height: 1.45; color: var(--muted); }
 .profile p { margin: 0; }
-.profile-photo { display: block; width: 100%; max-width: 11.5rem; height: auto; border-radius: 3px; margin-bottom: 1.1rem; filter: saturate(.92); }
+.profile-photo {
+  display: block; width: 100%; max-width: 11.5rem; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: 50%; padding: 4px; background: var(--paper); border: 1px solid var(--rule);
+  margin-bottom: 1.1rem;
+}
 .profile-name { font-family: var(--serif); font-size: 1.125rem; font-weight: 700; color: var(--ink); margin-bottom: .15rem !important; }
 .profile-role { color: var(--ink); margin-bottom: .35rem !important; }
 .profile-affil a { color: var(--muted); text-decoration-color: rgba(90, 98, 112, .35); }
