@@ -17,6 +17,6 @@
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Department of {{ site.author.department }}, {{ site.author.university }}.</p>
   </div>
 </footer>
-<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
